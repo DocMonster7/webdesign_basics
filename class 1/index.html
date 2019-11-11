@@ -12,20 +12,94 @@
     <title>Index page</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="sytle.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
 </head>
 
 <body>
+
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo">Logo</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="sass.html">Sass</a></li>
+                <li><a href="badges.html">Components</a></li>
+                <li><a href="collapsible.html">JavaScript</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+
+        <div class="row">
+            <div class="col s12 m7">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="https://external-preview.redd.it/m77ID3pOQQwEQ0reXUHWVz9jCK6WxEsvEZRu7VRyysQ.png?width=640&crop=smart&auto=webp&s=9272253023d83ff6d26de7a0af60f243df077747">
+                        <span class="card-title white-text text-darken-2" id="name"></span>
+                    </div>
+                    <div class="card-content">
+                        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="https://www.reddit.com/r/Art/comments/duk3pt/elric_brothers_katote_arichina_digital_pretty/">Link to Artist</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m7">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="https://preview.redd.it/1gsh9fmsvvx31.jpg?width=640&crop=smart&auto=webp&s=ea5c49b343ec5817ef99f5fbb383cb2d9ac0d439">
+                        <span class="card-title grey-text text-darken-2" id="ano"></span>
+                    </div>
+                    <div class="card-content">
+                        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="https://www.reddit.com/r/Art/comments/dude15/2077_galactic_princess_shane_shift_art_digital/">Link to Artist</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
     <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-    Hello world
-    <br> My name is <span id="name"></span>
     <script>
-        document.getElementById("name").innerHTML = "Doc_Monster7"
+        document.getElementById("name").innerHTML = "Karote Arichina"
+        document.getElementById("ano").innerHTML = "Shane_Shift_Art"
     </script>
 
-
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Footer Content</h5>
+                    <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2014 Copyright Text
+                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
