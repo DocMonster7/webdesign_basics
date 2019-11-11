@@ -19,4 +19,5 @@ As the classes continue New files will be added to this repo
 
 # Class 1: Basics of HTML and JavaScript
 For class 1 the files are in the folder named Class 1.
+
 You can download the .zip file or use git clone to download it
