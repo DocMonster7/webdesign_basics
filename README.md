@@ -14,6 +14,10 @@ As the classes continue New files will be added to this repo
 + JS-CSS-HTML Formatter
 + HTML Snippets
 + Bracket pair colorizer
+4. [Node Js](https://nodejs.org/en/download/) for later classes
+5. NPM packages to be installed
++ `npm install -g firebase-tools`
++ ` new packages will be listed here ( ^▽^)ψ__	`
 
 
 
