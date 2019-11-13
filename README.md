@@ -25,3 +25,8 @@ As the classes continue New files will be added to this repo
 For class 1 the files are in the folder named Class 1.
 
 You can download the .zip file or use git clone to download it
+
+# Class 2: Basics of PHP
+
+### Required Software
++ [XAMP](https://www.apachefriends.org/download.html) for starting the php server
