@@ -30,3 +30,6 @@ You can download the .zip file or use git clone to download it
 
 ### Required Software
 + [XAMP](https://www.apachefriends.org/download.html) for starting the php server
+
+### OR
++ PHP Server on VS Code extension
